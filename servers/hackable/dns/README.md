@@ -48,7 +48,7 @@ to avoid relaunching after each change. Run (from the root folder):
 $ nodemon -V -e "*.js|*.json" --ignore client/ --ignore .git/ servers/hackable/server.js
 ```
 
-#### Options
+**Options**
 
 Command line arguments always overwrite the defaults of 
 [config.default.json](https://github.com/ppppess/ppppess/blob/master/servers/hackable/config.default.json)
