@@ -38,7 +38,7 @@ $ node server.js
 #### Options
 
 Command line arguments given always overwrite the defaults of 
-[config.default.json](https://github.com/ppppess/ppppess/servers/hackable/config.default.json)
+[config.default.json](https://github.com/ppppess/ppppess/blob/master/servers/hackable/config.default.json)
 
 * **-env**: environment: choice of "dev" or "prod" (defaults to dev)
 * **-port**: port number (defaults to 8080)
