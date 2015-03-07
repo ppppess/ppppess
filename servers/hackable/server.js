@@ -1,5 +1,8 @@
 // CAREFULL !!!!! YOU NEED TO RUN  "sudo node app.js" IF YOU CHOOSE PORT 80 or 443 !!!!!
 // CAREFULL !!!!! the server must be built: tools/nodejs trs.js build server
+
+global.$ = require("../../shared/utils/all")(["core"]);
+
 var
    config = require("./config")(process.argv),
    port = 8081,

@@ -1,15 +1,16 @@
 
-var config = {
-	port		: 8081,
-	env 		: "dev",
-	tasks 	: "store&dns"
-};
-
-	
 var processArgs = function(args) {
 	
+	var c = {
+		port		: 8081,
+		env 		: "dev",
+		services	: "store&dns"
+	};
+	var config = $.extend(c, require("./config.default.json") );
+
 	var iskey, nextkey, nextfnc, retfnc = function(v) {return v;};
-	
+
+
 	args.forEach(function(val, index, array) {
 
 		iskey = val.toString().substring(0,1) === "-";
