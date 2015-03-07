@@ -30,8 +30,9 @@ $ grunt tests
 
 ## Usage
 
-To run the server with the default arguments contained in  
+To run the server with the default arguments contained in 
 [config.default.json](https://github.com/ppppess/ppppess/blob/master/servers/hackable/config.default.json)
+:
 ```shell
 $ node server.js
 ```
