@@ -95,7 +95,7 @@ We can use any help (testing, translating, auditing, redesiging, whatever you mi
 
 Fork the project, hack it, test it.
 
-If you find any security issue,  
+If you find any security issue, 
 [please file a security bug](https://github.com/ppppess/ppppess/issues)
 
 

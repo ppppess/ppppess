@@ -1,20 +1,21 @@
 
 [pppp]: http://purecss.io/
 
-# Hackable Store
+# Store
 
 **The storage part of the [PPPP][pppp] ecosystem.**
 
-We call it **the sky** (not "the cloud" :smile:) but it is in essence **your own private cloud**.
+We call it **the sky** (not "the cloud":smile:) but it is in essence **your own private cloud**.
 
-
+it is hackable: just use this code as inspiration, and make a much better storage server!
 
 
 ## Installation
 
-* Make sure you have included "store" in the services options when 
-[starting the server](https://github.com/ppppess/ppppess/blob/master/servers/hackable/README.md#options)
-
+* Make sure you have included "store" in the  
+[services options](../blob/master/servers/hackable/README.md#options)
+when 
+[starting the server](../blob/master/servers/hackable/README.md#usage)
 
 #### Development
 
@@ -22,8 +23,8 @@ We call it **the sky** (not "the cloud" :smile:) but it is in essence **your own
 #### Production
 
 * Enter your account number in the 
-[pricing.json]() 
-if you want to get paid when people access the stored files
+[pricing.json](../blob/master/servers/hackable/store/config.pricing.json)
+if you want to get paid when users store or access their files
 
 
 ## API
@@ -45,7 +46,7 @@ We can use any help (testing, translating, auditing, redesiging, whatever you mi
 
 Fork the project, hack it, test it.
 
-If you find any security issue,  
+If you find any security issue, 
 [please file a security bug](https://github.com/ppppess/ppppess/issues)
 
 
@@ -56,7 +57,7 @@ If you find any security issue,
 License
 -------
 
-[MIT](https://github.com/ppppess/ppppess/blob/master/LICENCE)
+[MIT](../blob/master/LICENCE)
 
 
 

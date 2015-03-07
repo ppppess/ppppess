@@ -1,0 +1,7 @@
+{
+	"account" 		: "",
+	"currency" 		: "EUR",
+	"access per request"				: 0.000001,
+	"storage per GB per 30 days" 	: 0.03,
+	"read per GB" 						: 0.02
+}
