@@ -3,28 +3,28 @@
 
 # Hackable
 
-The server part of the [PPPP][pppp] ecosystem.
-Just run it on your own server, and you can operate all services
+**The server part of the [PPPP][pppp] ecosystem.**
 
-Note: You can [customize which Pure modules you need][customize].
+Just run it on your own server, and you can operate all services yourself (DNS, kanb, signal, store, apps).
 
-## install:
+See folders for details about each service.
 
-* Make sure you have everything you need:
+## Install
+
+Make sure you have everything you need:
 ```shell
 $ ./install.sh
 ```
 
-
-* build the server
+Build the server
 ```shell
 $ npm install
 $ grunt build
 ```
 
-* test the server
+Test the server
 ```shell
-$ grunt test
+$ grunt tests
 ```
 
 
