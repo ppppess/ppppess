@@ -24,7 +24,7 @@ $ grunt build
 
 * test the server
 ```shell
-$ grunt test
+$ grunt tests
 ```
 
 
