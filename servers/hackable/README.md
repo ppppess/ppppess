@@ -37,14 +37,15 @@ $ node server.js
 
 #### Options
 
-Command line arguments given always overwrite the defaults of "config.default.json"
+Command line arguments given always overwrite the defaults of 
+[config.default.json](https://github.com/ppppess/ppppess/servers/hackable/config.default.json)
 
-* -env: environment: choice of "dev" or "prod" (defaults to dev)
-* -port: port number (defaults to 8080)
-* -services: choice of dns, kanb, signal, store, apps (defaults to dns&kanb&signal&store&apps)
+* **-env**: environment: choice of "dev" or "prod" (defaults to dev)
+* **-port**: port number (defaults to 8080)
+* **-services**: choice of dns, kanb, signal, store, apps (defaults to dns&kanb&signal&store&apps)
 
-**example**
-To run the server on port 8080 (default) in production with only the services "store" and "signal":
+**example**: 
+to run the server on port 8080 in production with only the services "store" and "signal":
 ```shell
 $ node server.js -env prod -port 8080 -services store&signal
 ```
