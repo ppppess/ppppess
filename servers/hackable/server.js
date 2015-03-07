@@ -2,7 +2,7 @@
 // CAREFULL !!!!! the server must be built: tools/nodejs trs.js build server
 
 // to monitor: run from the root pppp folder:
-// nodemon -V -e "*.js|*.json" --ignore client/ servers/hackable/server.js [options]
+// nodemon -V -e "*.js|*.json" --ignore client/ --ignore .git/ servers/hackable/server.js [options]
 
 global.$ = require("../../shared/utils/all")(["core"]);
 
