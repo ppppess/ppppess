@@ -1,10 +1,13 @@
 // CAREFULL !!!!! YOU NEED TO RUN  "sudo node app.js" IF YOU CHOOSE PORT 80 or 443 !!!!!
 // CAREFULL !!!!! the server must be built: tools/nodejs trs.js build server
 
+// to monitor: run from the root pppp folder:
+// nodemon -V -e "*.js|*.json" --ignore client/ servers/hackable/server.js [options]
+
 global.$ = require("../../shared/utils/all")(["core"]);
 
 var
-   config = require("./config")(process.argv),
+   config = require("./config")("./config.default", process.argv),
    port = 8081,
    fs = require('fs'),
    app = require('express')(),

@@ -1,12 +1,12 @@
 
-var processArgs = function(args) {
+var processArgs = function(hdefault, args) { 
 	
 	var c = {
 		port		: 8081,
 		env 		: "dev",
 		services	: "store&dns"
 	};
-	var config = $.extend(c, require("./config.default.json") );
+	var config = $.extend(c, require(hdefault) );
 
 	var iskey, nextkey, nextfnc, retfnc = function(v) {return v;};
 

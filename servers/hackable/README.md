@@ -7,13 +7,15 @@
 
 Just run it on your own server, and you can operate all services yourself (DNS, kanb, signal, store, apps).
 
-See folders for details about each service.
+See child folders for details about each service.
+
+
 
 ## Installation
 
 Make sure you have everything you need (redis, nodemon)
 ```shell
-$ ./install.sh
+$ tools/install.sh
 ```
 
 Build the server
@@ -28,6 +30,8 @@ $ grunt tests
 ```
 
 
+
+
 ## Usage
 
 To run the server with the default arguments contained in 
@@ -35,6 +39,13 @@ To run the server with the default arguments contained in
 :
 ```shell
 $ node server.js
+```
+
+When hacking, I use 
+[nodemon](http://nodemon.io/)
+to avoid relaunching after each change. Run (from the root folder):
+```shell
+$ nodemon -V -e "*.js|*.json" --ignore client/  servers/hackable/server.js
 ```
 
 #### Options
@@ -52,6 +63,11 @@ to run the server on port 8080 in production with only the services "store" and 
 $ node server.js -env prod -port 8080 -services store&signal
 ```
 
+
+
+
+
+
 ## Issues ?
 
 Well, there might be many, especially at the beginning...
@@ -67,6 +83,12 @@ If you still can't find the issue,
 [just file a bug](https://github.com/ppppess/ppppess/issues)
 
 
+
+
+
+
+
+
 ## Hackers please help !
 
 I can use any help (testing, translating, auditing, redesiging, whatever you might think about)
@@ -75,6 +97,11 @@ Fork the project, hack it, test it.
 
 If you find any security issue,  
 [please file a security bug](https://github.com/ppppess/ppppess/issues)
+
+
+
+
+
 
 License
 -------
