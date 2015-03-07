@@ -29,7 +29,7 @@ var processArgs = function(args) {
 
 	});
 
-	console.log("config=", config)
+	console.log("config=", config);
 	return config;
 };
 
