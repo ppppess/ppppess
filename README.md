@@ -3,23 +3,16 @@
 
 # PPPP
 
-the repo includes: 
+Welcome hackers! 
 
-* **client:** that's the Chrome app. You can install it in 5 seconds on your pc, tablet or smartphone.
+If you just want to test the app, the easiest way is to
+[follow this video]()
 
-* **servers:** that's the pppp ecosystem. It is divided into 2 parts:
+**If you want to hack however**, you are in the right place! The repo includes: 
 
-..* the *hackable* part: 
+* *client:* the Chrome app.
 
-Just run it on your own server, and you can operate all services yourself (DNS, kanb, signal, store, apps).
-
-See child folders for details about each service11.
-
-
-..* the *root* part: 
-
-This part is operated by PPPP, but we include the code so that you can run it yourself too.
-
+* *servers:*  the [PPPP][pppp] ecosystem.
 
 
 
@@ -45,28 +38,28 @@ Test the server
 $ grunt tests
 ```
 
-now you can:
+If tests went OK, now you can:
 
-* Intall the client
+* [Hack the client]()
 
-* Run the servers
+* [Hack the servers]()
 
 
 
 
 ## Issues ?
 
-Well, there might be many, especially at the beginning...
+Well, there might be many:weary:, especially at the beginning...
 
 First read the 
-[FAQ](https://github.com/ppppess/ppppess/blob/master/servers/hackable/faq.md)
+[FAQ](https://github.com/ppppess/ppppess/blob/master/faq.md)
 , I will try to keep it updated regularly.
 
 Then check the 
-[wiki](https://github.com/ppppess/ppppess/wiki)
+[wiki](https://github.com/ppppess/ppppess/wiki).
 
 If you still can't find the issue, 
-[just file a bug](https://github.com/ppppess/ppppess/issues)
+[just file a bug](https://github.com/ppppess/ppppess/issues).
 
 
 
@@ -93,7 +86,5 @@ License
 -------
 
 [MIT](https://github.com/ppppess/ppppess/blob/master/LICENCE)
-
-
 
 
