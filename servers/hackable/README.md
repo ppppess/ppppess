@@ -5,7 +5,7 @@
 
 **The server part of the [PPPP][pppp] ecosystem.**
 
-Just run it on your own server, and you can operate all services yourself (DNS, kanb, signal, store, apps).
+Just run it on your own server, and you can operate all services yourself (DNS, knab, signal, store, apps).
 
 See child folders for details about each service.
 

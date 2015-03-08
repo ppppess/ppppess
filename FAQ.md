@@ -1,6 +1,6 @@
 # FAQ
 
 
-* [client (=Chrome app)]()
+* [client ( or Chrome app)]()
 
-* [servers (=PPPP ecosystem)]()
+* [servers ( or PPPP ecosystem)]()

@@ -5,14 +5,14 @@
 
 Welcome hackers! 
 
-If you just want to test the app, the easiest way is to
+**If you just need to test the app**, the easiest way is to
 [follow this video]()
 
 **If you want to hack however**, you are in the right place! The repo includes: 
 
 * *client:* the Chrome app.
 
-* *servers:*  the [PPPP][pppp] ecosystem.
+* *servers:* the [PPPP][pppp] ecosystem (both root and hackable parts)
 
 
 
@@ -38,7 +38,7 @@ Test the server
 $ grunt tests
 ```
 
-If tests went OK, now you can:
+If all tests went OK, now you can:
 
 * [Hack the client]()
 
@@ -52,7 +52,7 @@ If tests went OK, now you can:
 Well, there might be many:weary:, especially at the beginning...
 
 First read the 
-[FAQ](https://github.com/ppppess/ppppess/blob/master/faq.md)
+[FAQ](https://github.com/ppppess/ppppess/blob/master/FAQ.md)
 , I will try to keep it updated regularly.
 
 Then check the 
@@ -75,7 +75,7 @@ We can use any help (testing, translating, auditing, redesiging, whatever you mi
 Fork the project, hack it, test it.
 
 If you find any security issue, 
-[please file a security bug](https://github.com/ppppess/ppppess/issues)
+[please file a security bug](https://github.com/ppppess/ppppess/issues).
 
 
 
@@ -84,7 +84,6 @@ If you find any security issue,
 
 License
 -------
-
 [MIT](https://github.com/ppppess/ppppess/blob/master/LICENCE)
 
 
