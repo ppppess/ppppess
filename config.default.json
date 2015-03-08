@@ -1,0 +1,10 @@
+
+{
+	"hackable" 	: true,
+	
+	"port"		: 8081,
+
+	"env" 		: "dev",
+	
+	"services" 	: "store&dns"
+}
