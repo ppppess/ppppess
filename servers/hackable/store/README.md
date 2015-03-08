@@ -12,10 +12,10 @@ it is hackable: just use this code as inspiration, and make a much better storag
 
 ## Installation
 
-* Make sure you have included "store" in the  
-[services options](../blob/master/servers/hackable/README.md#options)
+* Make sure you have included "store" in the 
+[services options](https://github.com/ppppess/ppppess/blob/master/servers/hackable/README.md#options)
 when 
-[starting the server](../blob/master/servers/hackable/README.md#usage)
+[starting the server](https://github.com/ppppess/ppppess/blob/master/servers/hackable/README.md#usage)
 
 #### Development
 
@@ -23,7 +23,7 @@ when
 #### Production
 
 * Enter your account number in the 
-[pricing.json](../blob/master/servers/hackable/store/config.pricing.json)
+[config.pricing.json](https://github.com/ppppess/ppppess/blob/master/servers/hackable/store/config.pricing.json)
 if you want to get paid when users store or access their files
 
 
@@ -57,7 +57,7 @@ If you find any security issue,
 License
 -------
 
-[MIT](../blob/master/LICENCE)
+[MIT](https://github.com/ppppess/ppppess/blob/master/LICENCE)
 
 
 
