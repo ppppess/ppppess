@@ -8,17 +8,8 @@ the repo includes:
 * **client:** that's the Chrome app. You can install it in 5 seconds on your pc, tablet or smartphone.
 
 * **servers:** that's the pppp ecosystem. It is divided into 2 parts:
-
-..* the *hackable* part: 
-
-Just run it on your own server, and you can operate all services yourself (DNS, kanb, signal, store, apps).
-
-See child folders for details about each service11.
-
-
-..* the *root* part: 
-
-This part is operated by PPPP, but we include the code so that you can run it yourself too.
+..* the *hackable* part: Just run it on your own server, and you can operate all services yourself (DNS, kanb, signal, store, apps).
+..* the *root* part: This part is operated by PPPP, but we include the code so that you can run it yourself too.
 
 
 
