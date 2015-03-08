@@ -8,15 +8,9 @@ Welcome hackers!
 If you just want to test the app, the easiest way is to
 [follow this video]()
 
-<<<<<<< HEAD
 **If you want to hack however**, you are in the right place! The repo includes: 
 
 * *client:* the Chrome app.
-=======
-* **servers:** that's the pppp ecosystem. It is divided into 2 parts:
-..* the *hackable* part: Just run it on your own server, and you can operate all services yourself (DNS, kanb, signal, store, apps).
-..* the *root* part: This part is operated by PPPP, but we include the code so that you can run it yourself too.
->>>>>>> 6dc602583b7e59aba6e2e46cc111776de78f83aa
 
 * *servers:*  the [PPPP][pppp] ecosystem.
 
