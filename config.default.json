@@ -1,6 +1,6 @@
 
 {
-	"hackable" 	: true,
+	"app" 		: "website",
 	
 	"port"		: 8081,
 

@@ -1,10 +1,10 @@
 // will merge several modules into one single hash
 
-module.exports = function(libs) { 
+module.exports = function(libs) {
 
-	libs = libs || [];
+	libs = libs || []; 
 
-	var root = process.cwd() + "/", ret = require( root + "shared/base"); 
+	var root = process.cwd() + "/", ret = require( __dirname + "/base");  
 
 	libs.forEach(function(lib) {
 		ret = ret.extend(ret, require(root + lib));

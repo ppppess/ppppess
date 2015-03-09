@@ -57,6 +57,11 @@ ret.extend = function() {
    return target;
 };
 
+
+ret.regexEscape = function(str) {
+   return str.replace(/[\-\[\]\/\{\}\(\)\*\+\?\.\\\^\$\|]/g, "\\$&");
+};
+
 ret.istype = istype;
 ret.typeget = typeget;
 

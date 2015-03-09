@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "author": "",
   "dependencies": {
+    "ejs": "^1.0.0",
     "uniq": "latest",
     "grunt": "~0.4.1",
     "grunt-contrib-uglify": "~0.1.2",
