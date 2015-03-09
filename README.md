@@ -1,5 +1,5 @@
 
-[pppp]: http://purecss.io/
+[pppp]: http://192.168.33.1:8081/
 
 # PPPP
 
@@ -8,11 +8,11 @@ Welcome hackers!
 **If you just need to test the app**, the easiest way is to
 [follow this video]()
 
-**If you want to hack however**, you are in the right place! The repo includes: 
+**If you want to hack** however, you are in the right place! The repo includes: 
 
-* *client:* the Chrome app.
+* *app:* the Chrome app.
 
-* *servers:* the [PPPP][pppp] ecosystem (both root and hackable parts)
+* *ecosystem:* the [PPPP][pppp] ecosystem (both root and hackable parts)
 
 
 
