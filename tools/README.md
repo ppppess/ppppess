@@ -15,17 +15,17 @@ $ npm install
 ## list of tools
 
 
-* **website**:
+* **website**: see 
 [website](https://github.com/ppppess/ppppess/blob/master/FAQ.md)
 
 
-* **install.sh**
+* **install.sh** : 
 installs redis, nodemon, etc...
 
 
-* **localize**
-see
-[localize](https://github.com/ppppess/ppppess/blob/master/FAQ.md)
+* **localize** : 
+see 
+[localize](https://github.com/ppppess/ppppess/blob/master/tools/localize.md)
 
 
 
